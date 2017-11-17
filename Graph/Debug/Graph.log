@@ -1,0 +1,47 @@
+﻿  graph-test.cpp
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(378): warning C4018: '<': signed/unsigned mismatch
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(345): note: while compiling class template member function 'std::vector<int,std::allocator<_Ty>> graph<int>::neighbors(T &)'
+          with
+          [
+              _Ty=int,
+              T=int
+          ]
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph-test.cpp(53): note: see reference to function template instantiation 'std::vector<int,std::allocator<_Ty>> graph<int>::neighbors(T &)' being compiled
+          with
+          [
+              _Ty=int,
+              T=int
+          ]
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph-test.cpp(33): note: see reference to class template instantiation 'graph<int>' being compiled
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(252): warning C4018: '<': signed/unsigned mismatch
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(239): note: while compiling class template member function 'graph<int> &graph<int>::operator =(graph<int> &)'
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph-test.cpp(59): note: see reference to function template instantiation 'graph<int> &graph<int>::operator =(graph<int> &)' being compiled
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(256): warning C4018: '<': signed/unsigned mismatch
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(181): warning C4018: '>=': signed/unsigned mismatch
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(180): note: while compiling class template member function 'void graph<int>::addEdge(T &,T &,int)'
+          with
+          [
+              T=int
+          ]
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph-test.cpp(39): note: see reference to function template instantiation 'void graph<int>::addEdge(T &,T &,int)' being compiled
+          with
+          [
+              T=int
+          ]
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(193): warning C4018: '<': signed/unsigned mismatch
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(209): warning C4018: '<': signed/unsigned mismatch
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(220): warning C4018: '<': signed/unsigned mismatch
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(222): warning C4018: '<': signed/unsigned mismatch
+c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(128): warning C4018: '<': signed/unsigned mismatch
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph.h(103): note: while compiling class template member function 'void graph<int>::addVector(T &)'
+          with
+          [
+              T=int
+          ]
+  c:\users\shane\desktop\cs 2420\new projects\graph\graph\graph-test.cpp(42): note: see reference to function template instantiation 'void graph<int>::addVector(T &)' being compiled
+          with
+          [
+              T=int
+          ]
+  Graph.vcxproj -> C:\Users\Shane\Desktop\CS 2420\New Projects\Graph\Debug\Graph.exe
+  Graph.vcxproj -> C:\Users\Shane\Desktop\CS 2420\New Projects\Graph\Debug\Graph.pdb (Partial PDB)
